@@ -1,6 +1,7 @@
 .list-produtos{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 2%;
     align-items: center;
     flex-wrap: wrap;
 

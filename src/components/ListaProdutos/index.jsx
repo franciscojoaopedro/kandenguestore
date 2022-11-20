@@ -38,6 +38,19 @@ const ListaProduto=()=>{
             <Produto
             url="../../../public/imgs/image3.jpg"
             />
+             <Produto
+            url="../../../public/imgs/image1.jpg"
+            />
+            <Produto
+            url="../../../public/imgs/image2.jpg"
+            />
+              <Produto
+            url="../../../public/imgs/image1.jpg"
+            />
+            <Produto
+            url="../../../public/imgs/image2.jpg"
+            />
+         
            
 
             

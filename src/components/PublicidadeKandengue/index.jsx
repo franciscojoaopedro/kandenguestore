@@ -12,7 +12,7 @@ Não não se executa uma instrução em computadores sem um processardor. Compra
             </div>
             <Logo/>
             <div className="p-images">
-                <img src="../../../public/imgs/s-l1600 (62).jpg" alt="" />
+                <img src="../../images/image1.jpg" alt="" />
             </div>
         </section>
     )
