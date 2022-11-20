@@ -1,0 +1,14 @@
+.h-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.list-produtos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

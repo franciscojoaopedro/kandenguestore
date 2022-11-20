@@ -1,0 +1,33 @@
+.s-publicidade{
+    width: 100vw;
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background: #0000001c;
+}
+
+.texto{
+    margin: 0px 10px;
+    width: 100%;
+    max-width: 400px;
+}
+.texto h3{
+    font-weight: 500;
+    color: #00000091;
+    word-wrap:  break-word;
+    text-align: justify;
+}
+
+.p-images{
+    width: 100%;
+    max-width: 400px;
+}
+
+.p-images img{
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+}

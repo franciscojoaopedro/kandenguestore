@@ -1,0 +1,12 @@
+.c-input{
+    margin: 0px 10px;
+    font-size: 18px;
+    width: 400px;
+    height: 40px;
+    font-weight: bold;
+    background: #dfdcdcbe;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}

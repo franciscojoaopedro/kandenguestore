@@ -1,0 +1,11 @@
+.f-footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+}
+
+.f-footer nav{
+}

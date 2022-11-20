@@ -1,0 +1,13 @@
+.logo{
+    margin: 0px 10px;
+}
+.logo h2{
+    
+    color: rgba(5, 5, 5, 0.651);
+}
+.logo h2 span{
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+}

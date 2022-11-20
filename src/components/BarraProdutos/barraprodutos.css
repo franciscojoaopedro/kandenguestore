@@ -1,0 +1,26 @@
+.barra-produtos{
+    border-top: 3px solid #d6e9f1;
+    width: 100vw;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra-produtos nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-link-barra{
+    
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.767);
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+.btn-link-barra:hover{
+    border-bottom: 3px solid rgb(37, 151, 218);
+}

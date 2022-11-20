@@ -1,0 +1,46 @@
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-header{
+    padding: 20px;
+    background: #ffffff;
+}
+
+.s-idioma{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e4e2e2ce;
+    padding: 15px;
+    outline: none;
+}
+.s-idioma option{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.btn-links{
+    text-decoration: none;
+    margin-left: 10px;
+    background: #049aff;
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+}
