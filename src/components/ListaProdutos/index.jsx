@@ -5,42 +5,40 @@ const ListaProduto=()=>{
     return(
         <div className="list-produtos" >
             <Produto
-            url="../../../public/imgs/s-l1600 (62).jpg"
+            url="../../../public/imgs/image1.jpg"
             />
             <Produto
-            url="../../../public/imgs/s-l1600 (63).jpg"
+            url="../../../public/imgs/image2.jpg"
             />
             <Produto
-            url="../../../public/imgs/s-l1600 (65).jpg"
+            url="../../../public/imgs/image3.jpg"
             />
             <Produto
-            url="../../../public/imgs/s-l1600 (66).jpg"
+            url="../../../public/imgs/image4.jpg"
             />
              <Produto
-            url="../../../public/imgs/s-l1600 (62).jpg"
-            />
-            <Produto
-            url="../../../public/imgs/s-l1600 (63).jpg"
-            />
-            <Produto
-            url="../../../public/imgs/s-l1600 (65).jpg"
-            />
-            <Produto
-            url="../../../public/imgs/s-l1600 (66).jpg"
+            url="../../../public/imgs/image5.jpg"
             />
 
-            <Produto
-            url="../../../public/imgs/s-l1600 (66).jpg"
-            />
-             <Produto
-            url="../../../public/imgs/s-l1600 (62).jpg"
-            />
-             <Produto
-            url="../../../public/imgs/s-l1600 (65).jpg"
+<Produto
+            url="../../../public/imgs/image3.jpg"
             />
             <Produto
-            url="../../../public/imgs/s-l1600 (66).jpg"
+            url="../../../public/imgs/image4.jpg"
             />
+             <Produto
+            url="../../../public/imgs/image5.jpg"
+            />
+            <Produto
+            url="../../../public/imgs/image1.jpg"
+            />
+            <Produto
+            url="../../../public/imgs/image2.jpg"
+            />
+            <Produto
+            url="../../../public/imgs/image3.jpg"
+            />
+           
 
             
             
