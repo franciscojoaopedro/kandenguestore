@@ -2,6 +2,7 @@ import "./header.css";
 
 import {Logo} from "../Logo"
 import { Input } from "../Input";
+import Entrar from "../../pages/Entrar";
 
 const Header=()=>{
     return(
@@ -21,7 +22,9 @@ const Header=()=>{
                     </select>
                 </li>
                 <li><a href="#" className="btn-links" >Produtos</a></li>
-                <li><a href="#" className="btn-links" >Carrinho</a></li>
+                <li><a href="#" className="btn-links"  >Entrar</a></li>
+                <li><a href="#" className="btn-links" >Registrar</a></li>
+                <li><a href="#" className="btn-links" >Carrinho  <span id="conter"  >7</span> </a></li>
               </ul>
             </nav>
         </header>

@@ -1,61 +1,34 @@
 import "./index.css"
 
 import { Produto } from "../Producto"
+import { useState,useEffect } from 'react';
+
+import { TodosProdutos } from "../../db/produto";
+
 const ListaProduto=()=>{
+    const [produto,setProduto]=useState([])
+
+
+    useEffect(()=>{
+        buscarProdutos();
+    },[produto])
+    async function buscarProdutos(){
+        const data= await TodosProdutos
+        setProduto(data)
+    }
+    
     return(
-        <div className="list-produtos" >
-            <Produto
-            url="../../../public/imgs/image1.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image2.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image3.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image4.jpg"
-            />
-             <Produto
-            url="../../../public/imgs/image5.jpg"
-            />
-
-<Produto
-            url="../../../public/imgs/image3.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image4.jpg"
-            />
-             <Produto
-            url="../../../public/imgs/image5.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image1.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image2.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image3.jpg"
-            />
-             <Produto
-            url="../../../public/imgs/image1.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image2.jpg"
-            />
-              <Produto
-            url="../../../public/imgs/image1.jpg"
-            />
-            <Produto
-            url="../../../public/imgs/image2.jpg"
-            />
-         
-           
-
-            
-            
-        </div>
+        <ul className="list-produtos" >
+            {produto.map((produto,indice)=><Produto
+                url={produto.img}
+                preco={produto.preco}
+                descricao={produto.descricao}
+                referencia={produto.referencia}
+                id={indice}
+                
+                />)}
+    
+        </ul>
     )
 }
 

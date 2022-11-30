@@ -1,5 +1,4 @@
 import { Header } from "../../components/Header"
-import { Produto } from "../../components/Producto"
 import { ListaProduto } from "../../components/ListaProdutos"
 import { Footer } from "../../components/Footer"
 import { PublicidadeKandengue } from "../../components/PublicidadeKandengue"
@@ -10,8 +9,10 @@ const Home =()=>{
     return(
         <div className="h-home">
             <Header/>
-            <BarraProdutos/>
-            <PublicidadeKandengue/>
+           <div>
+             <BarraProdutos/>
+           </div>
+          <PublicidadeKandengue/>
             <ListaProduto/>
             <Footer/>
         </div>

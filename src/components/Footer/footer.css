@@ -8,4 +8,40 @@
 }
 
 .f-footer nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 10px;
+}
+.rede-social{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+   list-style: none;
+   background: transparent;
+   margin: 0px 5px;
+}
+
+#facebook,#instagram,#whatsapp{
+    padding: 8px 20px ;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight:200;
+    color: #fff;
+    background: rgb(19, 101, 207);
+}
+#instagram{
+    color: #fff;
+    background: rgba(161, 64, 241, 0.877);
+}
+
+#whatsapp{
+    color: #fff;
+    background: rgb(36, 219, 128);
 }

@@ -1,0 +1,32 @@
+.entrar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.inputs{
+    margin: 20px;
+    padding: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #2077c9;
+    border-radius: 8px;
+}
+
+.btn-box {
+    margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+.btn-entrar{
+    text-decoration: none;
+        margin-left: 10px;
+        background: #049aff;
+        border-radius: 8px;
+        padding: 10px;
+        color: #fff;
+        font-weight: 700;
+}

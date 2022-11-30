@@ -3,6 +3,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    margin-bottom: 2px;
 }
 header nav{
     display: flex;
@@ -42,5 +44,13 @@ header nav ul{
     border-radius: 8px;
     padding: 10px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 300;
+}
+
+#conter{
+    width: 10px;
+    background: red;
+    padding: 0px 10px;
+    border-radius: 6px;
+    font-weight: 200;
 }
