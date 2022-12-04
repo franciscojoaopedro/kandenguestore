@@ -28,6 +28,10 @@
 .p-images{
     width: 100%;
     max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .p-images img{
@@ -44,8 +48,42 @@
 }
 
 .listcolor{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 
+}
+
+.listcolor span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0.5s;
+}
+
+
+.listcolor span:hover{
+    opacity: .80;
+}
+#green{
+    background: #384937;
+}
+#pink{
+    background: #f8ddd6;
+}
+#blue{
+    background: #225f7e;
+}
+#black{
+    background: #192028;
+}
+#white{
+    background: #f7f2ee;
+}
+#red{
+    background: #ae0617;
 }

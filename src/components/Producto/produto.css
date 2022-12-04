@@ -1,9 +1,11 @@
 .produto{
-    margin: 10px;
-    padding: 5px;
+   
+    margin: 3px;
+    padding: 3px;
     background: #ffffff;
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
+   
     border-radius: 8px;
     padding: 15px;
     box-shadow: 2px 2px 2px 2px #70707007;
@@ -11,7 +13,7 @@
 }
 
 .produto:hover{
-    transform: scale(1.04);
+    transform: scale(1.01);
 }
 .p-imagens{
     width: 100%;
@@ -105,7 +107,7 @@
     margin: 0px 5px;
 }
 
-.btn-comprar-agora,.btn-adicionarCarrinho{
+.btn-comprar-agora,.btn-adicionarCarrinho,.btn-ver-mais{
     width: 80%;
     padding: 10px 15px;
     border-radius: 8px;
@@ -116,6 +118,13 @@
     transition:    .05s;
 
     
+}
+
+.btn-ver-mais{
+    border: 1px solid #049aff;
+    background: #fff;
+    color: #049aff;
+    font-weight: 500;
 }
 
 .btn-adicionarCarrinho:hover,.btn-comprar-agora:hover{

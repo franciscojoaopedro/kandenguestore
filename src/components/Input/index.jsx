@@ -1,8 +1,8 @@
 import "./input.css"
 
-const Input=({children})=>{
+const Input=(props)=>{
     return(
-      <input  className="c-input" {...children} />
+      <input  className="c-input" {...props} />
     )
 }
 

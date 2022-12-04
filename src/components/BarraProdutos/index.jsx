@@ -9,7 +9,7 @@ const BarraProdutos=()=>{
                 <a href="#" className="btn-link-barra" >Relógios</a>
                 <a href="#" className="btn-link-barra" >Computadores</a>
                 <a href="#" className="btn-link-barra" >Relógios & Acessórios</a>
-                <a href="#" className="btn-link-barra" >Apple</a>
+                <a href="#" className="btn-link-barra" >Apple<span id="ponto">.</span> </a>
             </nav>
         </div>
     )

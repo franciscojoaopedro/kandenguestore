@@ -24,3 +24,11 @@
 .btn-link-barra:hover{
     border-bottom: 3px solid rgb(37, 151, 218);
 }
+
+#ponto{
+    padding: 0;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+}

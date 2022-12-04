@@ -49,6 +49,9 @@ const Produto=(props)=>{
               {<div className="btn">
                <button className="btn-comprar-agora">Comprar</button>
                 </div>}
+                {<div className="btn">
+               <button className="btn-ver-mais">Sobre</button>
+                </div>}
                 <div className="btn" >
                 <button className="btn-adicionarCarrinho"
                  onClick={adicionarNoCarrinho}   

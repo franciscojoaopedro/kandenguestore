@@ -11,7 +11,7 @@ const Header=()=>{
             <Logo/>
             
             <Input
-                placeholder="pesquisar produto"
+                placeholder="Pesquisar"
 
             />
               <ul>

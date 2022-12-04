@@ -1,9 +1,11 @@
 import "./index.css"
-
+import axios from "axios";
 import { Produto } from "../Producto"
 import { useState,useEffect } from 'react';
 
 import { TodosProdutos } from "../../db/produto";
+
+const baseURL="https://fakestoreapi.com/products?limit=20"
 
 const ListaProduto=()=>{
     const [produto,setProduto]=useState([])
@@ -13,17 +15,17 @@ const ListaProduto=()=>{
         buscarProdutos();
     },[produto])
     async function buscarProdutos(){
-        const data= await TodosProdutos
-        setProduto(data)
+        const data= await axios.get(baseURL)
+        .then((response)=> setProduto(response.data))
     }
     
     return(
         <ul className="list-produtos" >
             {produto.map((produto,indice)=><Produto
-                url={produto.img}
-                preco={produto.preco}
-                descricao={produto.descricao}
-                referencia={produto.referencia}
+                url={produto.image}
+                preco={produto.price}
+                descricao={produto.description}
+                referencia={produto.id}
                 id={indice}
                 
                 />)}
