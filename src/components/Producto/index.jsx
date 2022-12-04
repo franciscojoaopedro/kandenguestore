@@ -37,7 +37,7 @@ const Produto=(props)=>{
                 
                 <div className="p-preco">
                   <h2>
-                 {props.preco}
+                preço: {props.preco} $
                   </h2>
                 </div>
 
