@@ -1,5 +1,5 @@
 import "./produto.css"
-
+import { Link } from "react-router-dom"
 import { useState } from "react"
 
 
@@ -27,7 +27,8 @@ const Produto=(props)=>{
     }
 
     return(
-        <form className="produto" key={props.id}>
+        <li className="produto" key={props.id}>
+          <Link to={`/produto/${props.id}`} className="link"> 
             <div className="p-imagens">
                 <img src={props.url}  />
             </div>
@@ -45,20 +46,20 @@ const Produto=(props)=>{
                     <h2>Referencia: <span>{props.referencia}</span></h2>
                 </div>
             </div>
+          </Link>
+
             <div className="btns" >
-              {<div className="btn">
+              <div className="btn">
                <button className="btn-comprar-agora">Comprar</button>
-                </div>}
-                {<div className="btn">
-               <button className="btn-ver-mais">Sobre</button>
-                </div>}
+                </div>
+                
                 <div className="btn" >
                 <button className="btn-adicionarCarrinho"
                  onClick={adicionarNoCarrinho}   
                 >Adicionar</button>
                 </div>
             </div>
-        </form>
+        </li>
     )
 }
 

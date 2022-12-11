@@ -20,13 +20,13 @@ const ListaProduto=()=>{
     }
     
     return(
-        <ul className="list-produtos" >
+        <ul className="list-produtos">
             {produto.map((produto,indice)=><Produto
                 url={produto.image}
                 preco={produto.price}
                 descricao={produto.description}
                 referencia={produto.id}
-                id={indice}
+                id={produto.id}
                 
                 />)}
     

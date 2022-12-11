@@ -8,7 +8,9 @@
     box-shadow: 2px 2px 2px 2px #70707007;
     transition:transform .5s ease-in-out ;
 }
-
+.link{
+    text-decoration: none;
+}
 .produto:hover{
     transform: scale(1.01);
 }
