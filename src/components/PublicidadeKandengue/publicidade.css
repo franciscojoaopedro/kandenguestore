@@ -1,5 +1,5 @@
 .s-publicidade{
-    width: 100%;
+    width: 100vw;
     margin-top: 10px;
     padding: 15px;
     display: flex;
@@ -7,14 +7,19 @@
     align-items: center;
     background: rgb(255, 255, 255);
 }
-.container{
+.container-pub{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    padding: 0px 20rem;
 }
 .logo-pub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    padding: 0 10rem;
 }
 .texto-pub{
     margin: 0px 10px;

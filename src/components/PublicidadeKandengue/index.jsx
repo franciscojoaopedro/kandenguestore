@@ -16,7 +16,7 @@ const PublicidadeKandengue=()=>{
     return(
         
         <section className="s-publicidade" >
-           <div className="container">
+           <div className="container-pub">
            <div className="texto-pub">
             <h3> Loja em desenvolvimento, para uma melhor experiência na Kandengue Store, use um computador.Obrigado!</h3>
            {

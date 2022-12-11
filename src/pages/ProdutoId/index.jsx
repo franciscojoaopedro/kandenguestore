@@ -5,7 +5,7 @@ import {Header} from "../../components/Header";
 import { BarraProdutos } from '../../components/BarraProdutos';
 import {Footer} from "../../components/Footer"
 
-import "./produtoid.css"
+import   "./produtoid.css"
 
 
 const ProdutoId=()=>{
