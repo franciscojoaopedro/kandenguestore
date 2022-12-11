@@ -33,7 +33,7 @@ const Produto=(props)=>{
             </div>
 
             <div className="p-info" >
-                <h2>{LetrasMaiosculas(props.descricao)}</h2>
+               {/*  <h2>{LetrasMaiosculas(props.descricao)}</h2> */}
                 
                 <div className="p-preco">
                   <h2>
