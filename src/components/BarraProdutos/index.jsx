@@ -1,10 +1,10 @@
 import "./barraprodutos.css"
-
+import {Link} from "react-router-dom"
 const BarraProdutos=()=>{
     return(
         <div className="barra-produtos" >
             <nav>
-                <a href="#" className="btn-link-barra" >Home</a>
+                <Link to={"/"} className="btn-link-barra" >Home</Link>
                 <a href="#" className="btn-link-barra" >Telefones</a>
                 <a href="#" className="btn-link-barra" >Relógios</a>
                 <a href="#" className="btn-link-barra" >Computadores</a>

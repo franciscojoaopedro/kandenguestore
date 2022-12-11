@@ -13,16 +13,19 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.texto{
+.logo-pub{
+    width: 100%;
+}
+.texto-pub{
     margin: 0px 10px;
     width: 100%;
     max-width: 400px;
 }
-.texto h3{
-    font-weight: 400;
-    color: rgb(0, 0, 0);
-    word-wrap:  break-word;
-    text-align: justify;
+.texto-pub h3{
+    font-weight: 600;
+    color: rgb(0, 255, 132);
+    word-wrap:  normal;
+    text-align: center;
 }
 
 .p-images{

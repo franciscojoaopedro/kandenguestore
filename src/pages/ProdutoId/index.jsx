@@ -3,6 +3,7 @@ import {useParams} from "react-router-dom"
 import axios from "axios"
 import {Header} from "../../components/Header";
 import { BarraProdutos } from '../../components/BarraProdutos';
+import {Footer} from "../../components/Footer"
 
 import "./produtoid.css"
 
@@ -23,7 +24,7 @@ const ProdutoId=()=>{
   },[])
 
     return(
-       <>
+       <section>
         <Header/>
         <BarraProdutos/>
          <div id="produto" key={produtoid.id}>
@@ -35,25 +36,36 @@ const ProdutoId=()=>{
                     <div className="title">
                        <h3>{produtoid.title}</h3>
                     </div>
-                    <div>
-                      <h3>Price: {produtoid.price}</h3>
-                    </div>
-                    <div>
-                      <div className="description">
-                            <h4>
-                              {produtoid.description}
-                            </h4>
-                      </div>
                       <div className="category">
                         <h3>
                         Categoria: {produtoid.category}
                         </h3>
                       </div>
+                    <div>
+                      <div className="description">
+                            <h4>
+                                   <span>Especificação:</span>  {produtoid.description}
+                            </h4>
+                      </div>
+                    <div className='price'>
+                      <h3>Price: {produtoid.price}</h3>
+                    </div>
                     </div>
                </div>
+
+               <div className="btns" >
+              <div className="btn">
+               <button className="btn-comprar-agora">Comprar</button>
+                </div>
+                
+                <div className="btn" >
+                <button className="btn-adicionarCarrinho">Adicionar</button>
+                </div>
+            </div>
               </div>
          </div>
-       </>
+        <Footer/>
+       </section>
     )
 }
 

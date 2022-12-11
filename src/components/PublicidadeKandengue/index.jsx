@@ -17,11 +17,18 @@ const PublicidadeKandengue=()=>{
         
         <section className="s-publicidade" >
            <div className="container">
-           <div className="texto">
-                <h3>Os melhores computadores do mundo você encontra na <strong> Kandengue Store</strong>!
+           <div className="texto-pub">
+            <h3> Loja em desenvolvimento, para uma melhor experiência na Kandengue Store, use um computador.Obrigado!</h3>
+           {
+            /*
+                 <h3>Os melhores computadores do mundo você encontra na <strong> Kandengue Store</strong>!
 Não não se executa uma instrução em computadores sem um processardor. Compra aqui os melhores acessorios de computadores. Aqui vive a <strong>peformance,desempenho,qualidade,velocidade,entrega,</strong> e ainda temos preços mais baratos para acessorios de qualidade..</h3>
+            */
+           }
             </div>
-            <Logo/>
+           <di className="logo-pub">
+           <Logo/>
+           </di>
             <div className="p-images">
                 <img src={srcImg} alt="" />
                <div className="colors">
