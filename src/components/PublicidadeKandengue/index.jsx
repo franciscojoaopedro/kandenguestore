@@ -3,7 +3,7 @@ import "./publicidade.css"
 import { useState, useEffect } from 'react';
 
 const PublicidadeKandengue=()=>{
-    const [srcImg,setSrcImg]=useState("../../../public/iphones/black.png")
+    const [srcImg,setSrcImg]=useState("/public/black.png")
 
 
     useEffect(()=>{
@@ -30,15 +30,15 @@ Não não se executa uma instrução em computadores sem um processardor. Compra
            <Logo/>
            </di>
             <div className="p-images">
-                <img src={srcImg} alt="" />
+                <img src={srcImg} alt=""  />
                <div className="colors">
                <div className="listcolor">
-                   <span id="green" onClick={()=>imgSlider("../../../public/iphones/green.png")}></span>
-                   <span id="pink" onClick={()=>imgSlider("../../../public/iphones/pink.png")}></span>
-                   <span id="blue" onClick={()=>imgSlider("../../../public/iphones/blue.png")} ></span>
-                   <span id="black" onClick={()=>imgSlider("../../../public/iphones/black.png")}></span>
-                   <span id="white" onClick={()=>imgSlider("../../../public/iphones/white.png")} ></span>
-                    <span id="red" onClick={()=> imgSlider("../../../public/iphones/red.png")}></span>
+                   <span id="green" onClick={()=>imgSlider("/public/green.png")}></span>
+                   <span id="pink" onClick={()=>imgSlider("/public/pink.png")}></span>
+                   <span id="blue" onClick={()=>imgSlider("/public/blue.png")} ></span>
+                   <span id="black" onClick={()=>imgSlider("/public/black.png")}></span>
+                   <span id="white" onClick={()=>imgSlider("/public/white.png")} ></span>
+                    <span id="red" onClick={()=> imgSlider("/public/red.png")}></span>
                 </div>
                </div>
             </div>
